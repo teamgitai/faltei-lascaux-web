@@ -22,27 +22,41 @@
   <meta property="og:site_name" content="Faltei Lascaux" />
 
   <!-- Favicon -->
-  <link rel="icon" href="https://example.com/imagens/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+
   <title>Faltei Lascaux – Controle de Faltas Acadêmicas</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="/style.css" rel="stylesheet" />
 </head>
 
 <body>
 
   <header>
-    <div><strong>Faltei Lascaux</strong></div>
-    <nav>
-      <div>Plataforma ▾</div>
-      <div>Casos de uso ▾</div>
-      <div>Preços ▾</div>
-      <div>Recursos ▾</div>
-      <div>Desenvolvimento ▾</div>
-      <div>Sobre nós ▾</div>
+    <div class="logo-fontawsome-container">
+      <i class="fa-solid fa-house"></i>
+      <strong> Faltei Lascaux</strong>
+    </div>
+
+    <!-- Menu de hamburguer -->
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav-style">
+      <a href="/">Plataforma ▾</a>
+      <a href="/">Casos de uso ▾</a>
+      <a href="/">Preços ▾</a>
+      <a href="/">Recursos ▾</a>
+      <a href="/">Desenvolvimento ▾</a>
+      <a href="/">Sobre nós ▾</a>
     </nav>
+
     <div class="nav-buttons">
-      <button>Entrar</button>
-      <button>Baixar App</button>
+      <a href="/"><button>Entrar</button></a>
+      <a href="https://play.google.com/store/apps"><button>Baixar App</button></a>
     </div>
   </header>
 
@@ -56,7 +70,7 @@
         Gerencie faltas, visualize alertas e mantenha o controle total <br> da sua
         frequência acadêmica.
       </p>
-      <button class="button-hover">Comece agora</button>
+      <a href="/"><button class="button-hover">Comece agora</button></a>
     </div>
     <div class="lascaux-info-center">
       <p>
@@ -68,7 +82,7 @@
         <b>Lascaux</b> é uma caverna na <b>França</b>, descoberta na década de
         1940 <br> e famosa pela arte rupestre — <span>"Lascô"</span> é um
         trocadilho entre cultura <br>e realidade acadêmica. Porque se você faltar
-        demais... lascô mesmo!
+        demais... lascou mesmo!
       </p>
     </div>
     <div class="lascaux-info-right">
@@ -95,7 +109,7 @@
   <!-- CTA Final -->
   <section class="cta-section">
     <h2>Bora deixar sua vida na faculdade mais organizada?</h2>
-    <button class="button-hover">Crie sua conta gratuitamente</button>
+    <a href="/"><button class="button-hover">Crie sua conta gratuitamente</button></a>
   </section>
 
   <!-- Footer -->
